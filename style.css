@@ -2,3 +2,26 @@
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
+.foot{
+  margin-top: 50px;
+  padding: 30px;
+  background-color: salmon;
+}
+
+.connect{
+  margin-right: 5%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.header2{
+  padding: 20px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.headerRight{
+  margin: 0%;
+  font-size: 120%;
+}
