@@ -43,3 +43,14 @@
   margin: 0%;
   font-size: 120%;
 }
+
+div.box{
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 150px;
+
+}
