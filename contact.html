@@ -33,31 +33,32 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html" class="links"> About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html" class="links headerRight"> About</a></li>
+            <li><a href="portfolio.html" class="links headerRight">Portfolio</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
 
         <div class="col-md-8 bg-success contact">
           <h2 class="text-primary">Contact Me</h2>
           <form class="body">
+
             First name:<br>
-            <input type="text" name="name" placeholder="Name"><br>
-            <br>
+            <input type="email" class="form-control" name="name" placeholder="Name"><br>
+
             Last name:<br>
-            <input type="text" name="email" placeholder="Email">
+            <input type="email" class="form-control" name="email" placeholder="Email">
           </form>
           <br>
 
-          <textarea class="textarea" name="name" rows="8" cols="80"></textarea>
+          <textarea class="form-control textarea" name="name" rows="8" cols="50"></textarea>
           <br>
-          <br>
-          <input class="submit textarea btn-success" type="submit" name="" value="Submit">
+          <button type="submit" class="textarea btn btn-primary">Submit</button>
+
         </div>
 
 
@@ -75,7 +76,7 @@
         <div class="row">
           <div class="col-md-12">
             <footer class="footer text-center foot">
-              <div class="container">
+              <div class="container-fluid">
                 <span class="text-muted">&copy; Copyright 2018 Bijan Semnani</span>
               </div>
             </footer>
