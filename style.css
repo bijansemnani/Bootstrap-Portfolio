@@ -16,11 +16,29 @@
 }
 
 .header2{
-  padding: 20px;
+  padding: 5%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
 
+.contact{
+  padding-right: 30%;
+  width: 55%;
+  margin-left: 2%;
+}
+
+.body{
+  padding: 5%;
+}
+.textarea{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-size: 100%;
+}
+
+.submit{
+  margin-left: 5%;
+}
 .headerRight{
   margin: 0%;
   font-size: 120%;
